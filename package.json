@@ -1,0 +1,35 @@
+{
+  "name": "BowlingNode",
+  "version": "0.0.0",
+  "description": "\"Bowling challenge using Node\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/jasmine-node/bin/jasmine-node spec/ --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tekhuy/BowlingNode.git"
+  },
+  "author": "tekhuy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tekhuy/BowlingNode/issues"
+  },
+  "homepage": "https://github.com/tekhuy/BowlingNode",
+  "devDependencies": {
+    "casper-chai": "^0.2.1",
+    "casperjs": "^1.1.0-beta3",
+    "chai": "^1.10.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-express-server": "^0.4.19",
+    "jasmine-node": "^1.14.5",
+    "mocha": "^2.1.0",
+    "mocha-casperjs": "^0.5.3",
+    "phantomjs": "^1.9.15"
+  },
+  "dependencies": {
+    "ejs": "^2.2.4",
+    "express": "^4.11.2"
+  }
+}
